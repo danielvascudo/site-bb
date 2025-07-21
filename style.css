@@ -66,6 +66,33 @@ body {
     background-clip: text;
 }
 
+
+.spotify-box {
+    margin: 40px auto 0 auto;
+    max-width: 500px;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    background: rgba(255, 255, 255, 0.08);
+    padding: 16px 8px 8px 8px;
+    backdrop-filter: blur(4px);
+    border: 1.5px solid rgba(255, 255, 255, 0.18);
+    transition: box-shadow 0.3s, transform 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spotify-box:hover {
+    box-shadow: 0 12px 40px 0 rgba(31, 38, 135, 0.45);
+    transform: scale(1.02);
+}
+
+.spotify-box iframe {
+    border-radius: 12px;
+    width: 100%;
+    min-height: 352px;
+}
+
 /* Animações */
 @keyframes fadeInDown {
     from {
