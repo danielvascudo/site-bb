@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Efeito de digitação para "Eu te amo"
     setTimeout(() => {
-        typeWriter(loveMessage, 'Eu te amo bb', 150);
+        typeWriter(loveMessage, 'Eu te amo bibi', 150);
     }, 2000);
     
     // Cria corações aleatoriamente
