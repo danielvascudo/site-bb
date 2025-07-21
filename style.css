@@ -69,6 +69,7 @@ body {
 
 .spotify-box {
     margin: 40px auto 0 auto;
+    height: 200px;
     max-width: 500px;
     border-radius: 18px;
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -90,7 +91,7 @@ body {
 .spotify-box iframe {
     border-radius: 12px;
     width: 100%;
-    min-height: 352px;
+    min-height: 200px;
 }
 
 /* Animações */
